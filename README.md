@@ -1,4 +1,4 @@
-# 👋 Alp Buğra Yılmaz
+#  Alp Buğra Yılmaz
 
 Modern ve responsive kişisel portföy sitesi.
 
