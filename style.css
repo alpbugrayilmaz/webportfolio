@@ -1737,8 +1737,13 @@ body.dark {
 
 @media (max-width: 768px) {
   .hero-grid {
-    grid-template-columns: 1fr;
-    gap: 35px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .hero-content {
     text-align: center;
   }
 
@@ -1758,13 +1763,18 @@ body.dark {
     gap: 12px;
   }
 
+  .hero-actions {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
   .btn {
-    width: 100%;
+    width: auto;
+    min-width: 170px;
   }
 
   .hero-stats {
-    grid-template-columns: 1fr;
-    gap: 12px;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .hero-visual {
@@ -1773,15 +1783,15 @@ body.dark {
 
   .profile-card {
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
     margin: 0 auto;
     padding: 18px;
     transform: none;
   }
 
   .profile-image-wrapper {
-    width: 180px;
-    height: 220px;
+    width: 220px;
+    height: 260px;
     margin: 0 auto 20px;
   }
 
