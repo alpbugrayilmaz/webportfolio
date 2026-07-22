@@ -1733,3 +1733,62 @@ body.dark {
     letter-spacing: 24px;
   }
 }
+/* ================= MOBILE FIX v2 ================= */
+
+@media (max-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .hero-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-card {
+    width: 100%;
+    transform: none;
+    padding: 18px;
+  }
+
+  .profile-image-wrapper {
+    width: 180px;
+    height: 220px;
+  }
+
+  .profile-image {
+    height: 220px;
+    object-fit: cover;
+  }
+}
+/* Profil altındaki hareketli yazı için sabit alan */
+.profile-info p {
+  min-height: 48px;
+  line-height: 1.5;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .profile-info p {
+    min-height: 52px;
+  }
+}
