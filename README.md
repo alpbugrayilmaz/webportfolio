@@ -1,21 +1,27 @@
-# Alp Buğra Yılmaz Portfolio
+#  Alp Buğra Yılmaz
 
-Modern kişisel portföy sitesi.
+Modern ve responsive kişisel portföy sitesi.
 
-## Teknolojiler
+## 🚀 Teknolojiler
 
 - HTML5
 - CSS3
 - JavaScript
 
-## Özellikler
+## ✨ Özellikler
 
 - Responsive tasarım
-- Dark Theme
-- Modern animasyonlar
-- CV indirme
-- İletişim bilgileri
+- Modern Dark Theme
+- Smooth Animations
+- CV İndirme
+- LinkedIn Bağlantısı
 
-## Geliştirici
+## 📂 Proje
 
-Alp Buğra Yılmaz
+Bu proje kişisel portföyümü ve geliştirdiğim çalışmaları sergilemek amacıyla hazırlanmıştır.
+
+## 👨‍💻 Geliştirici
+
+**Alp Buğra Yılmaz**
+
+IT Specialist | System & Network | Web Development
